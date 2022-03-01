@@ -1,5 +1,4 @@
 import bcrypt from 'bcryptjs';
-// import { createToken } from '../services/auth.js';
 import { User } from '../models/user.model.js';
 
 export const insertUser = async (req, resp) => {
