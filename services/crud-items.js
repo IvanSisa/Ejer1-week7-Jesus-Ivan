@@ -1,7 +1,7 @@
 import { User } from '../models/user.model.js';
 export async function insertItem(body, Item) {
     // const User = userCreator();
-    const user = await User.findById(body.responsible);
+    const user = await User.findById(body.userItem);
     if (!user) {
         return null;
     }
